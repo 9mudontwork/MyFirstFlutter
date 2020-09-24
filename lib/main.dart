@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() =>
-    runApp(MaterialApp(
-        home: Home()
-    ));
+void main() => runApp(MaterialApp(home: Home()));
 
 class Home extends StatelessWidget {
   @override
@@ -15,11 +12,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[400],
       ),
       body: Center(
-        child: Text(
-          'ทดสอบ font kanit',
-          style: TextStyle(
-              fontSize: 20, fontWeight: FontWeight.bold, fontFamily: 'Kanit'),
-        ),
+        child: Image(image: AssetImage('assets/one-piece-phone-wallpapers.jpg')),
+      //  Image.asset('assets/download.jpg')
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
