@@ -12,8 +12,18 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[400],
       ),
       body: Center(
-        child: Image(image: AssetImage('assets/one-piece-phone-wallpapers.jpg')),
-      //  Image.asset('assets/download.jpg')
+        child: IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.account_box),
+          color: Colors.red
+        ),
+        // child: RaisedButton.icon(
+        //   onPressed: () {
+        //     print('test print from click');
+        //   },
+        //   icon: Icon(Icons.account_box),
+        //   label: Text('Click'),
+        // ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
