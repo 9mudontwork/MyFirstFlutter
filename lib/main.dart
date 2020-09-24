@@ -11,19 +11,11 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[400],
       ),
-      body: Center(
-        child: IconButton(
-          onPressed: () {},
-          icon: Icon(Icons.account_box),
-          color: Colors.red
-        ),
-        // child: RaisedButton.icon(
-        //   onPressed: () {
-        //     print('test print from click');
-        //   },
-        //   icon: Icon(Icons.account_box),
-        //   label: Text('Click'),
-        // ),
+      body: Container(
+        color: Colors.grey[400],
+        padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
+        margin: EdgeInsets.all(30),
+        child: Text('test text in chlid'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
